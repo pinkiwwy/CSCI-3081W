@@ -1,0 +1,9 @@
+1. I have changed sensor_touch.h and sensor_touch.cc. I have extracted method from the accept().
+   The new method is called setContact().
+
+2. Changes are made in line 68 in the sensor_touch.h. The setContact() is declared.
+   The code fragment was taken from line 35. The point_of_contact_ and angle_of_contact_ getters
+   and setters are being extracted to the setContact() in line 42.
+
+3. Turn code fragment into new extract method whose name explains the purpose of the method. This could
+   make reader easier to understand the code. 
